@@ -41,3 +41,6 @@ Move mode is implemented by capturing the `onPointerDownObservable` event, deter
 ### 3. Vertex Edit Mode:
 
 Vertex edit mode is realized by pinpointing the clicked vertex using the `pickWithRay` function. The chosen vertex is then repositioned by adjusting its coordinates according to the surrounding box's position.
+
+### 4. Video Tutorial:
+![Alt text](BABYLON_Tutorial.mp4)
