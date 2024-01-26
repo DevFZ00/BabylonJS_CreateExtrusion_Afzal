@@ -1,0 +1,61 @@
+html, body{
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#renderCanvas{
+  width: 100%;
+  height: 100%;
+  touch-action: none;
+}
+
+#userInputbttn {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+#finishGroup{
+  position:absolute;
+  top: 10px;
+  left: 250px
+}
+
+#btn1, #btn2, #btn3, #finishbttn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif; /* Use Poppins font */
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #fff; /* Text color */
+  text-align: center;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+#btn1 {
+  background: linear-gradient(to right, #4CAF50, #45a049); /* Green gradient */
+}
+
+#btn2 {
+  background: linear-gradient(to right, #3498db, #2980b9); /* Blue gradient */
+}
+
+#btn3 {
+  background: linear-gradient(to right, #9b59b6, #8e44ad); /* Purple gradient */
+}
+
+#finishbttn {
+  background: linear-gradient(to right, #3498db, #2980b9); /* Blue gradient */
+}
+
+#btn1:hover, #btn2:hover, #btn3:hover, #finishbttn:hover {
+  background: darken(linear-gradient(to right, #4CAF50, #45a049), 10%); /* Darken the gradient on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow on hover */
+}
+ 
